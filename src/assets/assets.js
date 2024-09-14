@@ -9,7 +9,7 @@ import egusi from './egusi.jpeg';
 import fill from './fill.jpg';
 import fill2 from './fill2.jpeg';
 import riceImage from './images (3).jpeg';
-import soupImage from './images (9).jpeg';
+import soupImage from './egusi.jpeg';
 import africanFood from './istockphoto-1659289700-612x612.jpg';
 import mainImage from './main.jpeg';
 import meatpie2 from './meatpie 2.jpeg';
@@ -24,15 +24,18 @@ import yam from './yam.jpeg';
 import cartIcon from './basket.png';
 import cart from './cart2.png';
 import userIcon from './user.png';
-import searchIcon from './search.jpeg';
-import logo from './logo.jpeg';
+import searchIcon from './searchNew.png';
 import logo1 from './logo1.png';
-import logo2 from './logo2.jpeg';
-import logo3 from './logo3.jpeg';
-import logo4 from './logo4.jpeg';
-import logo5 from './logo5.jpeg';
+import ratingStar from './orangestar.png';
+import addIcon from './add.png';
+import removeIcon from './minus.png';
+import linkedIn from './linkedin.png';
+import facebook from './facebook.png';
+import instagram from './instagram.png';
 
 export const Assets = {
+    addIcon,
+    removeIcon,
     banga,
     beans,
     chickenfill,
@@ -60,10 +63,195 @@ export const Assets = {
     cart,
     userIcon,
     searchIcon,
-    logo,
     logo1,
-    logo2,
-    logo3,
-    logo4,
-    logo5
+    ratingStar,
+    linkedIn,
+    facebook,
+    instagram
 }
+
+export const food_menu =[
+{
+    menu_name: "Smoothie",
+    menu_image:  smoothie
+},
+{
+    menu_name: "Burger",
+    menu_image:  burger
+},
+{
+    menu_name: "Chicken Wrap",
+    menu_image:  chickenwrap
+},
+{
+    menu_name: "Shawarma",
+    menu_image:  meatpie2
+},
+{
+    menu_name: "Rice",
+    menu_image:  riceImage2
+},
+{
+    menu_name: "Jollof",
+    menu_image:  packageImage
+},
+{
+    menu_name: "Soup",
+    menu_image:  soupImage
+},
+{
+    menu_name: "Banga Soup",
+    menu_image:  banga
+},
+{
+    menu_name: "Efo Riro",
+    menu_image:  efo
+}
+]
+
+export const foodList = [
+{
+    _id: "1",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "2",
+    name: "Fried Rice",
+    image: riceImage,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "3",
+    name: "Jollof Rice",
+    image: packageImage,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Jollof"
+},
+{
+    _id: "4",
+    name: "Ofe nsala",
+    image: nsala,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Soup"
+},
+{
+    _id: "5",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "6",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "7",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "8",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "9",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "10",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "11",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "12",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "13",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "14",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "15",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "16",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "17",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+},
+{
+    _id: "180",
+    name: "Jollof Rice",
+    image: riceImage2,
+    price: 5000,
+    desc: "Nigerian jollof with fried chicken and plantains",
+    category: "Rice"
+}
+]

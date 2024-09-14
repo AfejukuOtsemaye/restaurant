@@ -4,12 +4,14 @@ import { Route, Routes } from 'react-router-dom';
 import {Home} from './pages/home/home';
 import {Cart} from './pages/cart/cart';
 import {Order} from './pages/order/order';
+import {Footer} from './components/footer/footer';
 
 
 
 
 function App() {
   return (
+    <>
     <div className="App">
      <Navbar />
      <Routes>
@@ -18,6 +20,10 @@ function App() {
       <Route path='/order' element={<Order/>}></Route>
      </Routes>
     </div>
+    <Footer />
+    </>
+    
+   
   );
 }
 

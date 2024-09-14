@@ -1,0 +1,38 @@
+.foodMenu-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 10px 0;
+    overflow-x: scroll;
+    margin-bottom: 50px;
+}
+.foodMenu-list::-webkit-scrollbar{
+    display: none;
+}
+.foodMenu{
+    margin: 50px 0;
+    border-bottom: 2px solid black;
+}
+.foodMenu h1{
+    text-align: center;
+}
+.foodMenu-text{
+  margin-bottom: 30px;
+}
+.foodMenu-item img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.foodMenu-item p{
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.foodMenu-item .active{
+    border: 4px solid orange;
+    padding: 2px;
+}
