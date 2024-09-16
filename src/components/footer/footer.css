@@ -1,6 +1,6 @@
 .footer{
-    color: black;
-    background-color: whitesmoke;
+    color: white;
+    background-color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,11 +13,11 @@
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 80px;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid whitesmoke;
     padding-bottom: 20px;
 }
 .footerContent h2{
-    color: orange;
+    color: white;
     margin-bottom: 5px;
 }
 .footerContent ul li{
@@ -46,3 +46,15 @@
     gap: 20px;
 }
 */
+@media(max-width: 700px){
+    .footerContent{
+       display: block;
+       text-align: center;
+    }
+    .footerCenter{
+        margin-top: 40px;
+    }
+    .footerRight{
+        margin-top: 40px;
+    }
+}

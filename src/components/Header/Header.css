@@ -29,3 +29,23 @@
 .headerContent p{
     font-size: 16px;
 }
+@media(max-width: 750px ){
+   .header{
+    height: 38vw;
+   }
+   .headerContent{
+     max-width: 55%;
+   }
+}
+@media(max-width: 650px ){
+    .headerContent{
+      max-width: 90%;
+      bottom: 30%;
+      align-items: center;
+      left: 0;
+      right: 0;
+    }
+    .headerContent p{
+        display: none;
+    }
+ }

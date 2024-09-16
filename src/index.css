@@ -5,13 +5,14 @@
   margin: 0;
   padding: 0;
   font-family: Outfit;
+  scroll-behavior: smooth;
 }
 body{
   min-height: 100vh;
   background: white;
 }
 a{
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .App{

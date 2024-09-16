@@ -32,6 +32,9 @@ import removeIcon from './minus.png';
 import linkedIn from './linkedin.png';
 import facebook from './facebook.png';
 import instagram from './instagram.png';
+import playStore from './playstore.png';
+import appStore from './appstore.png';
+import closeIcon from './close.png';
 
 export const Assets = {
     addIcon,
@@ -67,7 +70,10 @@ export const Assets = {
     ratingStar,
     linkedIn,
     facebook,
-    instagram
+    instagram,
+    playStore,
+    appStore,
+    closeIcon
 }
 
 export const food_menu =[
