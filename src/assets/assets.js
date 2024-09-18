@@ -118,19 +118,19 @@ export const food_menu =[
 export const foodList = [
 {
     _id: "1",
-    name: "Jollof Rice",
-    image: riceImage2,
+    name: "Shawarma",
+    image: meatpie2,
     price: 5000,
-    desc: "Nigerian jollof with fried chicken and plantains",
-    category: "Rice"
+    desc: "Creamy yummy shawarma",
+    category: "Shawarma"
 },
 {
     _id: "2",
-    name: "Fried Rice",
-    image: riceImage,
+    name: "Smoothie",
+    image: smoothie,
     price: 5000,
-    desc: "Nigerian jollof with fried chicken and plantains",
-    category: "Rice"
+    desc: "Nutritous smoothie",
+    category: "Smoothie"
 },
 {
     _id: "3",
@@ -158,11 +158,11 @@ export const foodList = [
 },
 {
     _id: "6",
-    name: "Jollof Rice",
-    image: riceImage2,
+    name: "Banga Soup",
+    image: banga,
     price: 5000,
-    desc: "Nigerian jollof with fried chicken and plantains",
-    category: "Rice"
+    desc: "Banga soup super delicious",
+    category: "Banga Soup"
 },
 {
     _id: "7",
@@ -174,11 +174,11 @@ export const foodList = [
 },
 {
     _id: "8",
-    name: "Jollof Rice",
-    image: riceImage2,
+    name: "Efo Riro",
+    image: efo,
     price: 5000,
     desc: "Nigerian jollof with fried chicken and plantains",
-    category: "Rice"
+    category: "Efo Riro"
 },
 {
     _id: "9",
@@ -259,5 +259,19 @@ export const foodList = [
     price: 5000,
     desc: "Nigerian jollof with fried chicken and plantains",
     category: "Rice"
+},
+{  _id: "19",
+    name: "Chicken Wrap",
+    image: chickenwrap,
+    price: 5000,
+    desc: "Creamy chicken wrap",
+    category: "Chicken Wrap"
+},
+{  _id: "20",
+    name: "Burger",
+    image: burger,
+    price: 5000,
+    desc: "Creamy chicken wrap",
+    category: "Burger"
 }
 ]

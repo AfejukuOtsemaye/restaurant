@@ -30,7 +30,7 @@
 }
 button{
     background: transparent;
-    border: 1px solid orangered;
+    border: 1px solid orange;
     padding: 10px 30px;
     font-size: 16px;
     border-radius: 50px;
@@ -42,8 +42,8 @@ button:hover{
 }
 .nav .active{
     padding: 2px;
-    border: 1px solid orangered;
     background-color: orange;
+    padding: 5px;
 }
 .nav li{
     cursor: pointer;

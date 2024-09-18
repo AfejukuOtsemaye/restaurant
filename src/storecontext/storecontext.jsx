@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState } from 'react';
 import {foodList} from "../assets/assets";
 
 export const StoreContext = createContext(null)
@@ -21,16 +21,24 @@ const StoreContextProvider = (props) =>{
         setCartItems((prev) => ({...prev,[itemId]:prev[itemId] - 1}))
     }
 
-    useEffect(()=>{
-        console.log(cartItems);
-    }, [cartItems])
+   const cartTotalAmount =()=>{
+    let totalAmount = 0;
+    for(const items in cartItems){
+        if(cartItems[items] > 0){
+          let itemInfo = foodList.find((product)=> product._id === items);
+          totalAmount += itemInfo.price * cartItems[items];
+        }
+     }
+     return totalAmount;
+   }
 
     const contextValue = {
        foodList,
        cartItems,
        setCartItems,
        addToCart,
-       removeFromCart
+       removeFromCart,
+       cartTotalAmount
     }
     return (
         <StoreContext.Provider value={contextValue}>
